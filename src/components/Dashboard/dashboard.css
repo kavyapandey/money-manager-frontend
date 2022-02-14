@@ -1,0 +1,21 @@
+.padding-15{
+    padding : 15px;
+}
+.bgPurple{
+    background: linear-gradient( rgba(133, 99, 202, 0.753) 100%, rgba(133, 99, 202,0.753)100%),url("../../assets/sidebar-5.jpg");
+  
+    
+}
+.usernameDisplay{
+    display: -webkit-inline-box;
+}
+.balanceStyle{
+    height: 100px;
+    background-color: #866ebfc2;
+    color: whitesmoke;
+    width: auto;
+    margin: auto;
+    padding: 35px;
+    border-radius: 5px;
+    margin-top: 30px;
+}

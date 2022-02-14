@@ -7,11 +7,8 @@ const Details = ({title}) => {
   const {total, chartData} = useTransactions(title);
   return (
     
-    <>
-    <div class="row">
 
-
-        <div class="col-sm-6">
+        <div class="col-sm-12">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">{title}</h5>
@@ -21,10 +18,6 @@ const Details = ({title}) => {
         </div>
       </div>
    
-  
-  </div>
-
-  </>
   )
 }
 
